@@ -3,20 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgxPaginationModule } from "ngx-pagination";
 
 import { AppComponent } from './app.component';
-import { TablaPaginadaComponent } from './tabla-paginada/tabla-paginada.component';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { PokeModule } from './poke/poke.module';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    TablaPaginadaComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
-    MatPaginatorModule,
-    NgxPaginationModule,
-    BrowserAnimationsModule 
+    BrowserAnimationsModule,
+    PokeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

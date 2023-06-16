@@ -1,6 +1,6 @@
 <p>tabla-paginada works!</p>
 
-<table mat-table  class="mat-elevation-z8">
+<table mat-table class="mat-elevation-z8">
   <!-- Definir las columnas de la tabla -->
   <!-- Por ejemplo: -->
   <ng-container matColumnDef="nombre">
@@ -12,5 +12,5 @@
   <tr mat-row *matRowDef="let row; columns: columnas;"></tr>
 </table>
 
-<mat-paginator [pageSizeOptions]="[5, 10, 25, 100]"></mat-paginator>
+<!-- <mat-paginator [pageSizeOptions]="[5, 10, 25, 100]"></mat-paginator> -->
   
