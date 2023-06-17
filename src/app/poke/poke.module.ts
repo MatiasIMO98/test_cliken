@@ -1,16 +1,18 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { TablaPaginadaComponent } from '../tabla-paginada/tabla-paginada.component';
+import { PokelistComponent } from './pokelist/pokelist.component';
 
 
 
 @NgModule({
-  declarations: [TablaPaginadaComponent],
+  declarations: [
+    PokelistComponent
+  ],
   imports: [
     CommonModule
   ],
   exports: [
-    TablaPaginadaComponent
+    PokelistComponent
   ]
 })
 export class PokeModule { }
